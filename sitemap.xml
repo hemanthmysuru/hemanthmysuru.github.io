@@ -3,12 +3,12 @@
 
 Create a xml file named 'sitemap.xml', insert your webpages urls and upload it to the root directrory of your web site.
 
-https://www.ezeelearn.in/sitemap.xml
+https://www.travpicnic.in/sitemap.xml
 
 The location of the sitemap can also be included in the robots.txt file by adding the following line to robots.txt
 
-Sitemap: https://www.ezeelearn.in/sitemap.xml
+Sitemap: https://www.travpicnic.in/sitemap.xml
 
 
-https://www.ezeelearn.in/sitemap.xml
-https://www.ezeelearn.in/sitemap2.xml
+https://www.travpicnic.in/sitemap.xml
+https://www.travpicnic.in/sitemap2.xml
