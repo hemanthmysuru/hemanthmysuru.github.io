@@ -4,8 +4,8 @@ The robots.txt file allows you to restrict the access of search engine robots to
 
 Create a text file named 'robots.txt' and upload it to the root directrory of your web site. You can find more information about the robots.txt file at www.robotstxt.org.
 
-https://www.ezeelearn.in/robots.txt
+https://www.travpicnic.in/robots.txt
 
 
 ## The location of the sitemap can also be included in the robots.txt file by adding the following line to robots.txt
-Sitemap: https://www.ezeelearn.in/sitemap.xml
+Sitemap: https://www.travpicnic.in/sitemap.xml
