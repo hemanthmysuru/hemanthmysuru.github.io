@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html data-ng-app="cityApp">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Material Design</title>
+	<link rel="stylesheet" href="https://hemanthmysuru.github.io/public/css/style.css">
+</head>
+<body>
+	<nav class="primary-nav" data-ng-include="'https://hemanthmysuru.github.io/public/template_extra/navbar.html'"></nav>
+
+	<article class="detail icont">
+		<header class="cont-header">
+			<ul class="sl">
+				<li><a href="#" title="">Home</a></li>
+			    <li><a href="#" title="">Karnataka</a></li>
+			    <li><a href="#" title="">Mysore</a></li>
+			    <li><a href="#" title="">Chamundi Hills</a></li>
+			</ul>
+		</header>
+
+		<aside>
+			<div class="info">
+				<figure class="sf">
+					<img src="https://hemanthmysuru.github.io/public/image/dubai.jpg" >
+				</figure>
+				<section>
+					<ul class="sl">
+						<li>
+							<h2>Best Month</h2>
+							<h3>All year</h3>
+						</li>
+						<li>
+							<h2>Traveler Type</h2>
+							<h3>Friends, Family</h3>
+						</li>
+						<li>
+							<h2>To do</h2>
+							<h3>Trekking</h3>
+						</li>
+						<li>
+							<h2>Entry fee</h2>
+							<h3>Free</h3>
+						</li>
+						<li>
+							<h2>Temperature type</h2>
+							<h3>Cold, Rain</h3>
+						</li>
+					</ul>
+				</section>
+			</div>
+
+		</aside>
+
+		<section>
+			<div class="litebox gallery" data-ng-controller="liteboxCtrl" data-ng-gallery>
+				<aside class="overlay">
+					<a class="ripple" href="javascript:void(0)">X</a>
+
+					<div>
+						
+						<figure class="sf">
+							<header class="ripple direction left"><</header>
+							<img src="https://hemanthmysuru.github.io/public/image/bankok.jpg" alt="">
+							<header class="ripple direction right">></header>
+						</figure>
+						
+					</div>
+					
+				</aside>
+				<section>
+
+					<ul class="sl">
+					    <li>
+				    		<figure class="sf ripple ripple-light">
+				    			<img data-ng-src="https://hemanthmysuru.github.io/public/image/bankok.jpg" alt="">
+				    		</figure>
+					    </li>
+					    <li>
+				    		<figure class="sf ripple ripple-light">
+				    			<img data-ng-src="https://hemanthmysuru.github.io/public/image/dubai.jpg" alt="">
+				    		</figure>
+					    </li>
+					    <li>
+				    		<figure class="sf ripple ripple-light">
+				    			<img data-ng-src="https://hemanthmysuru.github.io/public/image/hongkong.jpg" alt="">
+				    		</figure>
+					    </li>
+					    <li>
+				    		<figure class="sf ripple">
+				    			<img data-ng-src="https://hemanthmysuru.github.io/public/image/sidney.jpg" alt="">
+				    		</figure>
+					    </li>
+					</ul>
+
+				</section>
+			</div>
+			<div>
+				<header>Overview</header>
+				<section>
+					<p>
+						And OWASP makes it even worse, stressing on escaping user input which is an utter nonsense: there should be no such words in the context of injection protection. Every variable is potentially dangerous
+					</p>	
+					<p>
+						And OWASP makes it even worse, stressing on escaping user input which is an utter nonsense: there should be no such words in the context of injection protection. Every variable is potentially dangerous - no matter of the source! Or, in other words - every variable have to be properly formatted to be put into query - no matter of the source again. It's destination that matters. The moment a developer starts to separate the sheep from the goats (thinking whether some particular variable is "safe" or not) he does his first step to disaster. Not to mention that even the wording suggests bulk escaping at the entry point, resembling the very magic quotes feature - already despised, deprecated and removed.
+					</p>
+					<ul>
+					    <li>Injection protection</li>
+					    <li>Stressing on escaping</li>
+					    <li>OWASP</li>
+					    <li>Already despised</li>
+					    <li>Destination</li>
+					</ul>
+				</section>
+			</div>
+
+			<div>
+				<header>Service</header>
+				<section>
+					<ul class="sl grid">
+					    <li class="ripple">
+					    	<a href="javascript:void(0)" title="">
+						    	<i class="fa fa-taxi" aria-hidden="true"></i>
+						    	<header>Cab</header>
+					    	</a>
+					    </li>
+					    <li class="ripple">
+					    	<a href="#" title="">
+						    	<i class="fa fa-cutlery" aria-hidden="true"></i>
+						    	<header>Hotel</header>
+					    	</a>
+					    </li>
+					    <li class="ripple">
+					    	<a href="#" title="">
+						    	<i class="fa fa-bed" aria-hidden="true"></i>
+						    	<header>Stay Home</header>
+					    	</a>
+					    </li>
+					</ul>
+				</section>
+			</div>
+
+			<div>
+				<header>Information</header>
+				<section>
+					<ul class="sl grid">
+					    <li class="ripple">
+					    	<a href="javascript:void(0)" title="">
+						    	<i class="fa fa-bus" aria-hidden="true"></i>
+						    	<header>Bus</header>
+						    	<header>3 Kms</header>
+						    </a>
+					    </li>
+					    <li class="ripple">
+					    	<a href="javascript:void(0)" title="">
+						    	<i class="fa fa-train" aria-hidden="true"></i>
+						    	<header>Train</header>
+						    	<header>2 Kms</header>
+						    </a>
+					    </li>
+					    <li class="ripple">
+					    	<a href="javascript:void(0)" title="">
+						    	<i class="fa fa-plane" aria-hidden="true"></i>
+						    	<header>Airport</header>
+						    	<header>15 Kms</header>
+						    </a>
+					    </li>
+					    <li class="ripple">
+					    	<a href="javascript:void(0)" title="">
+						    	<i class="fa fa-ambulance" aria-hidden="true"></i>
+						    	<header>Hospital</header>
+						    	<header>7 Kms</header>
+						    </a>
+					    </li>
+					    <li class="ripple">
+					    	<a href="javascript:void(0)" title="">
+						    	<i class="fa fa-plane" aria-hidden="true"></i>
+						    	<header>Fuel</header>
+						    	<header>15 Kms</header>
+						    </a>
+					    </li>
+					</ul>
+				</section>
+			</div>
+
+			<div>
+				<header>Related</header>
+				<section>
+					<ul class="sl img-grid">
+						<li>
+							<a href="javascript:void(0)" title="" >
+								<figure class="sf ripple ripple-light">
+									<img data-ng-src="https://hemanthmysuru.github.io/public/image/bankok.jpg" alt="">
+									<figcaption>Chamundi Hills</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" title="" >
+								<figure class="sf ripple ripple-light">
+									<img data-ng-src="https://hemanthmysuru.github.io/public/image/dubai.jpg" alt="">
+									<figcaption>Bull Temple</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" title="" >
+								<figure class="sf ripple ripple-light">
+									<img data-ng-src="https://hemanthmysuru.github.io/public/image/hongkong.jpg" alt="">
+									<figcaption>Zoological Garden</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" title="" >
+								<figure class="sf ripple ripple-light">
+									<img data-ng-src="https://hemanthmysuru.github.io/public/image/sidney.jpg" alt="">
+									<figcaption >Krishna Raja Sagara</figcaption>
+								</figure>
+							</a>
+						</li>
+					</ul>
+				</section>
+			</div>		
+
+		</section>
+
+		
+	</article>
+
+	<footer class="primary-footer" data-ng-include="'https://hemanthmysuru.github.io/public/template_extra/footer.html'"></footer>
+
+	<script type="text/javascript" src="https://hemanthmysuru.github.io/public/libs/angular.min.js"></script>
+	<script src="https://hemanthmysuru.github.io/public/directive/whimsicalRipple.js"></script>
+	<script src="https://hemanthmysuru.github.io/public/directive/litebox.js"></script>
+	<script src="https://use.fontawesome.com/e35ca1bf59.js"></script>
+	<script type="text/javascript">
+		var app = angular.module('cityApp', ['whimsicalRipple', 'litebox']);
+		app.controller('liteboxCtrl', ['$scope', function ($scope) {
+			
+		}])
+		
+	</script>
+</body>
+</html>
